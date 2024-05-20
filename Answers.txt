@@ -1,0 +1,17 @@
+1. Program, Person and Register
+2. 
+  Program
+    Some functions making it easier to read
+  Person
+    Attributes
+      Name
+      Salary
+    Methods
+      Constructor (Optional)
+      override ToString (Optional)
+  Register
+    Attributes
+      A list with persons
+    Methods
+      AddPerson
+      ShowRegister
