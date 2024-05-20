@@ -6,24 +6,24 @@ using System.Threading.Tasks;
 
 namespace PersonRegister
 {
-    internal class Register
+    public class Register
     {
-        List<Person> list;
-
         public Register(List<Person> list)
         {
-            this.list = list;
+            this.List = list;
         }
+
+        public List<Person> List { get; set; }
 
         public void AddPerson(Person person)
         {
-            list.Add(person);
+            List.Add(person);
         }
 
         public void ShowwRegister()
         {
             Console.WriteLine("Register printout");
-            foreach (Person person in list)
+            foreach (Person person in List)
             {
                 Console.WriteLine(person);
             }
