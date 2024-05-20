@@ -1,1 +1,1 @@
-# PersonRegister, a simple project for learning Git from Visual Studio
+# PersonRegister, a simple project for learning GitHub and Git from Visual Studio
