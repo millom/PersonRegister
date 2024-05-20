@@ -15,13 +15,9 @@ namespace PersonRegister
             this.list = list;
         }
 
-        public void AddPerson()
+        public void AddPerson(Person person)
         {
-            Console.WriteLine("Skriv in namn");
-            var name = Console.ReadLine();
-            Console.WriteLine("Skriv in lön");
-            var salary = double.Parse(Console.ReadLine());
-            list.Add(new Person(name, salary));
+            list.Add(person);
         }
 
         public void ShowwRegister()
